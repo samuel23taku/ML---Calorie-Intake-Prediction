@@ -1,6 +1,6 @@
 # Calory Intake Prediction Analysis - Regression
 
-# 1. Dataset Attribute Information
+# 1. Dataset Overview
 Dataset source: https://www.kaggle.com/datasets/animeshmahajan/fitbit-dataset
 
 ```
@@ -19,9 +19,8 @@ Features:
 ```
 The comprehensive nature of this data makes it a valuable resource for conducting in-depth analysis of the individual's health and fitness trends over the course of the year. It can be used for various purposes, such as monitoring health progress, identifying patterns in activity levels, and making informed decisions to improve overall well-being and lifestyle.
 
-# 2. Libraries and requirements
+# 2. Technical Requirements
 ## Libraries
-
 <li>pandas
 <li>numpy
 <li>matplotlib
@@ -29,5 +28,14 @@ The comprehensive nature of this data makes it a valuable resource for conductin
 <li>scikit-learn
 
 ## Algorithms
+<li>Linear Regression(Ridge Regression)
+<li>Polynomial Features
+<li>Grid Search CV
+<li>K-Fold Cross Validation
 
-<li>Linear Regression
+
+# 3. Methodology
+A linear regression model was built to predict caloric intake based on the selected attributes. The dataset was preprocessed, and feature scaling was applied to ensure optimal model performance. Cross-validation and grid search techniques were employed to tune hyperparameters and evaluate model performance.
+
+# 4. Results
+The final model achieved a high R-squared score, indicating excellent predictive capabilities. The analysis provides valuable insights into the individual's dietary habits, physical activity levels, and overall health tracking.
